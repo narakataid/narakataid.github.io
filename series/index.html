@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang=''><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+<title>narakata</title>
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.narakata.id/css/eureka.min.css">
+
+
+
+
+<script defer src="https://www.narakata.id/js/eureka.min.js"></script>
+
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css">
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js" integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo=" crossorigin="anonymous"></script>
+
+<meta itemprop="name" content="narakata">
+<meta itemprop="description"
+    content="">
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "name": "narakata",
+        "item": "https://www.narakata.id/"
+    },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "name": "Series",
+        "item": "https://www.narakata.id/series/"
+    }]
+}
+</script>
+
+
+
+<meta property="og:title" content="narakata" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.narakata.id/series/" />
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="narakata" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2020-10-08T04:04:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="series" />
+
+
+
+<link rel="alternate" type="application/rss+xml" href="https://www.narakata.id/series/index.xml" title="narakata" />
+<body class="flex flex-col min-h-screen">
+    <header class="flex items-center fixed w-full min-h-16 z-50 bg-secondary-bg shadow-sm">
+        <div class="container mx-auto">
+            <div class="max-w-screen-xl"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    } else if (storageColorScheme == "Light") {
+        document.getElementsByTagName('html')[0].classList.remove('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap p-4">
+    <a href="https://www.narakata.id/" class="mr-6 text-primary-text text-xl font-bold">narakata</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target" class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0" id="current-url" currenturl="https://themes.gohugo.io//theme/hugo-eureka/">
+
+            <a href="/cerpen/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Cerpen</a>
+
+            <a href="/pantun/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Pantun</a>
+
+            <a href="/peribahasa/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Peribahasa</a>
+
+            <a href="/puisi/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Puisi</a>
+
+        </div>
+
+        <div class="flex">
+          <div class="carikata" id="carikata">
+            <form action="/search/" method="get" class="d-none d-md-block"><div class="input-group"><input name="q" type="text" class="form-control" placeholder="Kata kunci..">
+            </div></form>
+  </div>
+      </div>
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+        
+    });
+
+    let currenturl = document.getElementById('current-url').getAttribute('currenturl')
+        if (currenturl.length > 1) {
+            currenturl = currenturl.substr(0, currenturl.length - 1)
+        }
+
+        sessionStorage.setItem("mainKey", currenturl)
+
+        let elements = document.getElementsByClassName('main-a');
+        for (let i in elements) {
+            if (typeof elements[i] === "object") {
+                let elementurl = elements[i].getAttribute('href')
+                if (elementurl.length > 1 && elementurl.charAt(elementurl.length - 1) == '/') {
+                    elementurl = elementurl.substr(0, elementurl.length - 1)
+                }
+                if (elementurl == sessionStorage.getItem("mainKey")) {
+                    elements[i].classList.add('text-eureka')
+                } else {
+                    elements[i].classList.remove('text-eureka')
+                }
+            }
+        }
+</script>
+</div>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-16">
+        
+        <div class="container mx-auto ">
+            <div class="max-w-screen-xl lg:px-4 xl:px-8">
+<article class="mx-6 my-8">
+    <h1 class="font-bold text-3xl text-primary-text">Series</h1>
+    
+</article>
+<div class="bg-secondary-bg rounded px-6 py-8">
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sabiq-carebesth/" class="text-eureka hover:underline">Sabiq Carebesth</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/joko-pinurbo/" class="text-eureka hover:underline">Joko Pinurbo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nursini-rais/" class="text-eureka hover:underline">Nursini Rais</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/muhammad-yamin/" class="text-eureka hover:underline">Muhammad Yamin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/setia-naka-andrian/" class="text-eureka hover:underline">Setia Naka Andrian</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/w.s.-rendra/" class="text-eureka hover:underline">W.S. Rendra</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sapardi-djoko-damono/" class="text-eureka hover:underline">Sapardi Djoko Damono</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mina-apratima-nour/" class="text-eureka hover:underline">Mina Apratima Nour</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/fiersa-besari/" class="text-eureka hover:underline">Fiersa Besari</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/anugrah-gio-pratama/" class="text-eureka hover:underline">Anugrah Gio Pratama</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/amir-hamzah/" class="text-eureka hover:underline">Amir Hamzah</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/f.-aziz-manna/" class="text-eureka hover:underline">F. Aziz Manna</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wilson-nadeak/" class="text-eureka hover:underline">Wilson Nadeak</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/afrizal-malna/" class="text-eureka hover:underline">Afrizal Malna</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/salman-rusydie-anwar/" class="text-eureka hover:underline">Salman Rusydie Anwar</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/maya-angelou/" class="text-eureka hover:underline">Maya Angelou</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/akhmad-sekhu/" class="text-eureka hover:underline">Akhmad Sekhu</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nanang-suryadi/" class="text-eureka hover:underline">Nanang Suryadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/c.p.-cavafy/" class="text-eureka hover:underline">C.P. Cavafy</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/abdul-hadi-w.m./" class="text-eureka hover:underline">Abdul Hadi W.M.</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/boy-candra/" class="text-eureka hover:underline">Boy Candra</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/saut-situmorang/" class="text-eureka hover:underline">Saut Situmorang</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/anonim/" class="text-eureka hover:underline">Anonim</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/clara/" class="text-eureka hover:underline">Clara</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/winda-w.-azizah/" class="text-eureka hover:underline">Winda W. Azizah</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/marhalim-zaini/" class="text-eureka hover:underline">Marhalim Zaini</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/emha-ainun-nadjib/" class="text-eureka hover:underline">Emha Ainun Nadjib</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mashdar-zainal/" class="text-eureka hover:underline">Mashdar Zainal</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/umii-kulsum/" class="text-eureka hover:underline">Umii Kulsum</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/muhammad-yusuf-ismail/" class="text-eureka hover:underline">Muhammad Yusuf Ismail</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/katedrarajawen/" class="text-eureka hover:underline">Katedrarajawen</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ritma-arientha/" class="text-eureka hover:underline">Ritma Arientha</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/tia-setiadi/" class="text-eureka hover:underline">Tia Setiadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/isbedy-stiawan-zs/" class="text-eureka hover:underline">Isbedy Stiawan ZS</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hasan-aspahani/" class="text-eureka hover:underline">Hasan Aspahani</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sitor-situmorang/" class="text-eureka hover:underline">Sitor Situmorang</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/acep-zamzam-noor/" class="text-eureka hover:underline">Acep Zamzam Noor</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/adimas-immanuel/" class="text-eureka hover:underline">Adimas Immanuel</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/seno-gumira-ajidarma/" class="text-eureka hover:underline">Seno Gumira Ajidarma</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/yopi-setia-umbara/" class="text-eureka hover:underline">Yopi Setia Umbara</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nermi-silaban/" class="text-eureka hover:underline">Nermi Silaban</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/kethut-r.-purnama/" class="text-eureka hover:underline">Kethut R. Purnama</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/kharisma-p.-lanang/" class="text-eureka hover:underline">Kharisma P. Lanang</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/agus-noor/" class="text-eureka hover:underline">Agus Noor</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/indra-tjahyadi/" class="text-eureka hover:underline">Indra Tjahyadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/raudal-tanjung-banua/" class="text-eureka hover:underline">Raudal Tanjung Banua</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/widji-thukul/" class="text-eureka hover:underline">Widji Thukul</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/aris-kurniawan-basuki/" class="text-eureka hover:underline">Aris Kurniawan Basuki</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wawa-herawaty/" class="text-eureka hover:underline">Wawa Herawaty</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/agus-santoso/" class="text-eureka hover:underline">Agus Santoso</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wahidah/" class="text-eureka hover:underline">Wahidah</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wiki-puisi/" class="text-eureka hover:underline">Wiki Puisi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/goenawan-mohamad/" class="text-eureka hover:underline">Goenawan Mohamad</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/gerson-poyk/" class="text-eureka hover:underline">Gerson Poyk</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/gus-noy/" class="text-eureka hover:underline">Gus Noy</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hamdali-anton/" class="text-eureka hover:underline">Hamdali Anton</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hasyyati-melanie/" class="text-eureka hover:underline">Hasyyati Melanie</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/james-thurber/" class="text-eureka hover:underline">James Thurber</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/alois-a.-nugroho/" class="text-eureka hover:underline">Alois A. Nugroho</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/parlin/" class="text-eureka hover:underline">Parlin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/tu.-muksalmina/" class="text-eureka hover:underline">Tu. Muksalmina</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/timbar-jaya-kusuma/" class="text-eureka hover:underline">Timbar Jaya Kusuma</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/reza-rusandi/" class="text-eureka hover:underline">Reza Rusandi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sutardji-calzoum-bachri/" class="text-eureka hover:underline">Sutardji Calzoum Bachri</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/b.b.-soegiono/" class="text-eureka hover:underline">B.B. Soegiono</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/putu-wijaya/" class="text-eureka hover:underline">Putu Wijaya</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/kh.-a.-mustofa-bisri/" class="text-eureka hover:underline">KH. A. Mustofa Bisri</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/phutut-ea/" class="text-eureka hover:underline">Phutut Ea</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wahyudi-kumorotomo/" class="text-eureka hover:underline">Wahyudi Kumorotomo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/johanis-malingkas/" class="text-eureka hover:underline">Johanis Malingkas</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mutia-sukma/" class="text-eureka hover:underline">Mutia Sukma</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/remy-sylado/" class="text-eureka hover:underline">Remy Sylado</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/yusi-avianto-pareanom/" class="text-eureka hover:underline">Yusi Avianto Pareanom</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/maryati/" class="text-eureka hover:underline">Maryati</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/budi-darma/" class="text-eureka hover:underline">Budi Darma</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/andira-wu/" class="text-eureka hover:underline">Andira Wu</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/b.j.-habibie/" class="text-eureka hover:underline">B.J. Habibie</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/erdisanoor/" class="text-eureka hover:underline">Erdisanoor</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/shinta-febriany/" class="text-eureka hover:underline">Shinta Febriany</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ook-nugroho/" class="text-eureka hover:underline">Ook Nugroho</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/dedy-tri-riyadi/" class="text-eureka hover:underline">Dedy Tri Riyadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/kahlil-gibran/" class="text-eureka hover:underline">Kahlil Gibran</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/norman-adi-satria/" class="text-eureka hover:underline">Norman Adi Satria</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pidi-baiq/" class="text-eureka hover:underline">Pidi Baiq</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/a.-rahim-qahhar/" class="text-eureka hover:underline">A. Rahim Qahhar</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/soeparwata-wiraatmadja/" class="text-eureka hover:underline">Soeparwata Wiraatmadja</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ichsan-nurseha/" class="text-eureka hover:underline">Ichsan Nurseha</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/adi-k/" class="text-eureka hover:underline">Adi K</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/yudanto-kurnia/" class="text-eureka hover:underline">Yudanto Kurnia</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/a.-muttaqin/" class="text-eureka hover:underline">A. Muttaqin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ama-achmad/" class="text-eureka hover:underline">Ama Achmad</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/fitrah-anugerah/" class="text-eureka hover:underline">Fitrah Anugerah</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/kuntowijoyo/" class="text-eureka hover:underline">Kuntowijoyo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/arswendo-atmowiloto/" class="text-eureka hover:underline">Arswendo Atmowiloto</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ropingi/" class="text-eureka hover:underline">Ropingi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rayhandi/" class="text-eureka hover:underline">Rayhandi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sunu-purnama/" class="text-eureka hover:underline">Sunu Purnama</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/taufiq-ismail/" class="text-eureka hover:underline">Taufiq Ismail</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ahmad-tohari/" class="text-eureka hover:underline">Ahmad Tohari</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pablo-neruda/" class="text-eureka hover:underline">Pablo Neruda</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/thomas-hardy/" class="text-eureka hover:underline">Thomas Hardy</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/emily-dickinson/" class="text-eureka hover:underline">Emily Dickinson</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/robert-frost/" class="text-eureka hover:underline">Robert Frost</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wheeler-wilcox/" class="text-eureka hover:underline">Wheeler Wilcox</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/william-ernest-henley/" class="text-eureka hover:underline">William Ernest Henley</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rudyard-kipling/" class="text-eureka hover:underline">Rudyard Kipling</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/lord-alfred-tennyson/" class="text-eureka hover:underline">Lord Alfred Tennyson</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/oriah-mountain-dreamer/" class="text-eureka hover:underline">Oriah Mountain Dreamer</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/david-g.-kelly/" class="text-eureka hover:underline">David G. Kelly</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sheelagh-lennon/" class="text-eureka hover:underline">Sheelagh Lennon</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sheila-cheasbro/" class="text-eureka hover:underline">Sheila Cheasbro</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/belle/" class="text-eureka hover:underline">Belle</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/yudo-herbeno/" class="text-eureka hover:underline">Yudo Herbeno</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/yuliana-syarifudin/" class="text-eureka hover:underline">Yuliana Syarifudin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/penyair-muda/" class="text-eureka hover:underline">Penyair Muda</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/adimas-imannuel/" class="text-eureka hover:underline">Adimas Imannuel</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/aan-mansyur/" class="text-eureka hover:underline">Aan Mansyur</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/veven-sp-wardhana/" class="text-eureka hover:underline">Veven Sp Wardhana</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/gus-ipul/" class="text-eureka hover:underline">Gus Ipul</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/motinggo-boesje/" class="text-eureka hover:underline">Motinggo Boesje</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hermawan-aksan/" class="text-eureka hover:underline">Hermawan Aksan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/doddi-ahmad-fauji/" class="text-eureka hover:underline">Doddi Ahmad Fauji</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/dami-n.-toda/" class="text-eureka hover:underline">Dami N. Toda</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rustian-al-ansori/" class="text-eureka hover:underline">Rustian Al Ansori</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sulaiam-kamal/" class="text-eureka hover:underline">Sulaiam Kamal</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/diyahifada/" class="text-eureka hover:underline">Diyahifada</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pustamun/" class="text-eureka hover:underline">Pustamun</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/susilo-bambang-yudhoyono/" class="text-eureka hover:underline">Susilo Bambang Yudhoyono</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/eka-budianta/" class="text-eureka hover:underline">Eka Budianta</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/arif/" class="text-eureka hover:underline">Arif</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/agus-widjianto/" class="text-eureka hover:underline">Agus Widjianto</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/shanti-dheone/" class="text-eureka hover:underline">Shanti Dheone</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/suparjono/" class="text-eureka hover:underline">Suparjono</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/helvy-tiana-rossa/" class="text-eureka hover:underline">Helvy Tiana Rossa</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nh.-dini/" class="text-eureka hover:underline">Nh. Dini</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/y.-s.-sunaryo/" class="text-eureka hover:underline">Y. S. Sunaryo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/prito-windiarto/" class="text-eureka hover:underline">Prito Windiarto</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/erni-ristyanti/" class="text-eureka hover:underline">Erni Ristyanti</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/j.-s.-khairen/" class="text-eureka hover:underline">J. S. Khairen</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wira-nagara/" class="text-eureka hover:underline">Wira Nagara</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pical-gadi/" class="text-eureka hover:underline">Pical Gadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ahmad-afandi/" class="text-eureka hover:underline">Ahmad Afandi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sarwan-rachmadi/" class="text-eureka hover:underline">Sarwan Rachmadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/fina/" class="text-eureka hover:underline">Fina</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/purwawasita/" class="text-eureka hover:underline">Purwawasita</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/dhinar-dewi-istini/" class="text-eureka hover:underline">Dhinar Dewi Istini</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rudy-yuswantoro/" class="text-eureka hover:underline">Rudy Yuswantoro</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/fatkuryati/" class="text-eureka hover:underline">Fatkuryati</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/suyadi/" class="text-eureka hover:underline">Suyadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/gembala-sion/" class="text-eureka hover:underline">Gembala Sion</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/berty-sinaulan/" class="text-eureka hover:underline">Berty Sinaulan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/george-sicillia/" class="text-eureka hover:underline">George Sicillia</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/dewi-lestari/" class="text-eureka hover:underline">Dewi Lestari</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/chaca/" class="text-eureka hover:underline">Chaca</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/vienry/" class="text-eureka hover:underline">Vienry</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wendy/" class="text-eureka hover:underline">Wendy</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/a.-hanum-melati-r/" class="text-eureka hover:underline">A. Hanum Melati R</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/w.-aisyah/" class="text-eureka hover:underline">W. Aisyah</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/atim-hani/" class="text-eureka hover:underline">Atim Hani</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/binthy-muya/" class="text-eureka hover:underline">Binthy Muya</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/bety-a/" class="text-eureka hover:underline">Bety A</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hendra-prasetya/" class="text-eureka hover:underline">Hendra Prasetya</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ardhi-wijayanto/" class="text-eureka hover:underline">Ardhi Wijayanto</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rizqi-akbar/" class="text-eureka hover:underline">Rizqi Akbar</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/belia/" class="text-eureka hover:underline">Belia</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/frid-embu/" class="text-eureka hover:underline">Frid Embu</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rafael-yanuar/" class="text-eureka hover:underline">Rafael Yanuar</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rizal-de-loesie/" class="text-eureka hover:underline">Rizal De Loesie</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rizky-karo-karo/" class="text-eureka hover:underline">Rizky Karo Karo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/aled/" class="text-eureka hover:underline">Aled</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/caroline-sambuaga/" class="text-eureka hover:underline">Caroline Sambuaga</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/zindagi/" class="text-eureka hover:underline">Zindagi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/tyas/" class="text-eureka hover:underline">Tyas</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/amrin-tambuse/" class="text-eureka hover:underline">Amrin Tambuse</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/wining-astini/" class="text-eureka hover:underline">Wining Astini</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/beni-guntarman/" class="text-eureka hover:underline">Beni Guntarman</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rizki-subbeh/" class="text-eureka hover:underline">Rizki Subbeh</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/kemal-muhammad/" class="text-eureka hover:underline">Kemal Muhammad</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/elda-rina/" class="text-eureka hover:underline">Elda Rina</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/muhammad-idham-musapir/" class="text-eureka hover:underline">Muhammad Idham Musapir</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nesyaviani/" class="text-eureka hover:underline">Nesyaviani</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/roger/" class="text-eureka hover:underline">Roger</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/lola-silaban/" class="text-eureka hover:underline">Lola Silaban</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/yeye/" class="text-eureka hover:underline">Yeye</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/inas-pramoda/" class="text-eureka hover:underline">Inas Pramoda</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/agfian-muntaha/" class="text-eureka hover:underline">Agfian Muntaha</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/banhanaa-chubbiey/" class="text-eureka hover:underline">Banhanaa Chubbiey</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/fuadi/" class="text-eureka hover:underline">Fuadi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/binthy-moeya-s/" class="text-eureka hover:underline">Binthy Moeya S</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/a-r435/" class="text-eureka hover:underline">A-r435</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/helvy-tiana-rosa/" class="text-eureka hover:underline">Helvy Tiana Rosa</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/eka-ardiansyah/" class="text-eureka hover:underline">Eka Ardiansyah</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/akemii/" class="text-eureka hover:underline">Akemii</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/muhlis-hatba/" class="text-eureka hover:underline">Muhlis Hatba</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/eddo-richardo/" class="text-eureka hover:underline">Eddo Richardo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/apriani-dinni/" class="text-eureka hover:underline">Apriani Dinni</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pendoa-sion/" class="text-eureka hover:underline">Pendoa Sion</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/chairil-anwar/" class="text-eureka hover:underline">Chairil Anwar</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/asma-nadia/" class="text-eureka hover:underline">Asma Nadia</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/andrea-hirata/" class="text-eureka hover:underline">Andrea Hirata</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/tere-liye/" class="text-eureka hover:underline">Tere Liye</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sekar-jatiningrum/" class="text-eureka hover:underline">Sekar Jatiningrum</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/annisa-rizka-roselina/" class="text-eureka hover:underline">Annisa Rizka Roselina</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rizaldi-noverisman/" class="text-eureka hover:underline">Rizaldi Noverisman</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ardea-sasvica/" class="text-eureka hover:underline">Ardea Sasvica</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ifaikah-kalidin/" class="text-eureka hover:underline">Ifaikah Kalidin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/jihan-fauziah/" class="text-eureka hover:underline">Jihan Fauziah</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rahmat-jabaril/" class="text-eureka hover:underline">Rahmat Jabaril</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/dwi-ariantoni/" class="text-eureka hover:underline">Dwi Ariantoni</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/alfiyan-harfi/" class="text-eureka hover:underline">Alfiyan Harfi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/surya-adhi-kuncoro/" class="text-eureka hover:underline">Surya Adhi Kuncoro</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/risscoklat/" class="text-eureka hover:underline">Risscoklat</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/elis-kartika/" class="text-eureka hover:underline">Elis Kartika</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nurul-aeni/" class="text-eureka hover:underline">Nurul Aeni</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/jein-oktaviany/" class="text-eureka hover:underline">Jein Oktaviany</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ahlis-qoidah-noor/" class="text-eureka hover:underline">Ahlis Qoidah Noor</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/refdinal-muzan/" class="text-eureka hover:underline">Refdinal Muzan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/gun/" class="text-eureka hover:underline">Gun</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pilo-poly/" class="text-eureka hover:underline">Pilo Poly</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hisan-ainun-nissa/" class="text-eureka hover:underline">Hisan Ainun Nissa</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sorae/" class="text-eureka hover:underline">Sorae</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/salwi/" class="text-eureka hover:underline">Salwi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/melly-elvira/" class="text-eureka hover:underline">Melly Elvira</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mochtar-lubis/" class="text-eureka hover:underline">Mochtar Lubis</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/muhammad-daffa/" class="text-eureka hover:underline">Muhammad Daffa</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nuriman-n-bayan/" class="text-eureka hover:underline">Nuriman N Bayan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/poet/" class="text-eureka hover:underline">Poet</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/panji-ramdana/" class="text-eureka hover:underline">Panji Ramdana</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sujiwo-tejo/" class="text-eureka hover:underline">Sujiwo Tejo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/taufik-ikram-jamil/" class="text-eureka hover:underline">Taufik Ikram Jamil</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/puspita-rose/" class="text-eureka hover:underline">Puspita Rose</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mega-vristian/" class="text-eureka hover:underline">Mega Vristian</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pencil-spirit/" class="text-eureka hover:underline">Pencil Spirit</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/elly-trisnawati/" class="text-eureka hover:underline">Elly Trisnawati</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/muntamah-cendani/" class="text-eureka hover:underline">Muntamah Cendani</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/el-sahra-mahendra/" class="text-eureka hover:underline">El Sahra Mahendra</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/etik-widya/" class="text-eureka hover:underline">Etik Widya</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/raditya-dika/" class="text-eureka hover:underline">Raditya Dika</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/irvan-syahril/" class="text-eureka hover:underline">Irvan Syahril</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/galeh-pramudianto/" class="text-eureka hover:underline">Galeh Pramudianto</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/najwa-shihab/" class="text-eureka hover:underline">Najwa Shihab</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/darmanto-jatman/" class="text-eureka hover:underline">Darmanto Jatman</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/cak-son/" class="text-eureka hover:underline">Cak Son</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/literasi/" class="text-eureka hover:underline">Literasi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sufren/" class="text-eureka hover:underline">Sufren</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ziqi-zuleyka-s/" class="text-eureka hover:underline">Ziqi Zuleyka S</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mawar-damayanti/" class="text-eureka hover:underline">Mawar Damayanti</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hartono-jhon-witir/" class="text-eureka hover:underline">Hartono Jhon Witir</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/muhammad-nurdin/" class="text-eureka hover:underline">Muhammad Nurdin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/yahya-andi-saputra/" class="text-eureka hover:underline">Yahya Andi Saputra</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ir.-soekarno/" class="text-eureka hover:underline">Ir. Soekarno</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/megantarafm-tuban/" class="text-eureka hover:underline">Megantarafm Tuban</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ade-rahayu/" class="text-eureka hover:underline">Ade Rahayu</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/gibran/" class="text-eureka hover:underline">Gibran</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/tira-soekardi/" class="text-eureka hover:underline">Tira Soekardi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/abdul-muin-daeng-miyala/" class="text-eureka hover:underline">Abdul Muin Daeng Miyala</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/badrul-munir-chair/" class="text-eureka hover:underline">Badrul Munir Chair</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/beni-satryo/" class="text-eureka hover:underline">Beni Satryo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ulfatin-ch/" class="text-eureka hover:underline">Ulfatin Ch</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/elfira-bunga/" class="text-eureka hover:underline">Elfira Bunga</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mijoe/" class="text-eureka hover:underline">Mijoe</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/iyut-fitra/" class="text-eureka hover:underline">Iyut Fitra</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/s.-jill-wolf/" class="text-eureka hover:underline">S. Jill Wolf</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/joanna-fuchs/" class="text-eureka hover:underline">Joanna Fuchs</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/megan/" class="text-eureka hover:underline">Megan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/reena/" class="text-eureka hover:underline">Reena</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ajip-rosidi/" class="text-eureka hover:underline">Ajip Rosidi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/john-waromi/" class="text-eureka hover:underline">John Waromi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/iwan/" class="text-eureka hover:underline">Iwan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ratna-indraswari-ibrahim/" class="text-eureka hover:underline">Ratna Indraswari Ibrahim</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/adri-sandra/" class="text-eureka hover:underline">Adri Sandra</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rosione/" class="text-eureka hover:underline">Rosione</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/arie-wied-biosa/" class="text-eureka hover:underline">Arie Wied Biosa</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/erwid-benzon/" class="text-eureka hover:underline">Erwid Benzon</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/budhi-setyawan/" class="text-eureka hover:underline">Budhi Setyawan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/destuma/" class="text-eureka hover:underline">Destuma</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hand-arshapat/" class="text-eureka hover:underline">Hand Arshapat</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ajie/" class="text-eureka hover:underline">Ajie</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/putri-sasa/" class="text-eureka hover:underline">Putri Sasa</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/fithinia-mafti/" class="text-eureka hover:underline">Fithinia Mafti</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/eka-kurniawan/" class="text-eureka hover:underline">Eka Kurniawan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/oka-rusmini/" class="text-eureka hover:underline">Oka Rusmini</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/deknong-kemalawati/" class="text-eureka hover:underline">Deknong Kemalawati</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/d.-zawawi-imron/" class="text-eureka hover:underline">D. Zawawi Imron</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pinto-janir/" class="text-eureka hover:underline">Pinto Janir</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/floribertus-rahardi/" class="text-eureka hover:underline">Floribertus Rahardi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/taufiq-febrian/" class="text-eureka hover:underline">Taufiq Febrian</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/alex-r.-nainggolan/" class="text-eureka hover:underline">Alex R. Nainggolan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/jimmy-wahyudi-bharata/" class="text-eureka hover:underline">Jimmy Wahyudi Bharata</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/smit-syan/" class="text-eureka hover:underline">Smit Syan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ninil/" class="text-eureka hover:underline">Ninil</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/tan-lioe-ie/" class="text-eureka hover:underline">Tan Lioe Ie</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hasan-al-banna/" class="text-eureka hover:underline">Hasan Al Banna</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/iman-budhi-santoso/" class="text-eureka hover:underline">Iman Budhi Santoso</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sariamin-ismail/" class="text-eureka hover:underline">Sariamin Ismail</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/tria-meikawati/" class="text-eureka hover:underline">Tria Meikawati</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/lala-fernanda/" class="text-eureka hover:underline">Lala Fernanda</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/fajar-janu/" class="text-eureka hover:underline">Fajar Janu</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/zarry-hendrik/" class="text-eureka hover:underline">Zarry Hendrik</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/azizi-sulung/" class="text-eureka hover:underline">Azizi Sulung</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/audri/" class="text-eureka hover:underline">Audri</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/dr.-fj-usm/" class="text-eureka hover:underline">Dr. FJ USM</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ismi-sofia-ananda/" class="text-eureka hover:underline">Ismi Sofia Ananda</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/y.s.-sunaryo/" class="text-eureka hover:underline">Y.S. Sunaryo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/satria-imaji/" class="text-eureka hover:underline">Satria Imaji</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/damiri-mahmud/" class="text-eureka hover:underline">Damiri Mahmud</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/aming-aminoedhin/" class="text-eureka hover:underline">Aming Aminoedhin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/saipul-tura/" class="text-eureka hover:underline">Saipul Tura</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/pramoedya-ananta-toer/" class="text-eureka hover:underline">Pramoedya Ananta Toer</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/noorca-m.-massardi/" class="text-eureka hover:underline">Noorca M. Massardi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/indrian-koto/" class="text-eureka hover:underline">Indrian Koto</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/annisa-nur-fitriyani/" class="text-eureka hover:underline">Annisa Nur Fitriyani</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/nirwan-dewanto/" class="text-eureka hover:underline">Nirwan Dewanto</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/diah-hadaning/" class="text-eureka hover:underline">Diah Hadaning</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/dimas-indiana-senja/" class="text-eureka hover:underline">Dimas Indiana Senja</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hasbi-burman/" class="text-eureka hover:underline">Hasbi Burman</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/arifin-c.-noer/" class="text-eureka hover:underline">Arifin C. Noer</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/jose-rizal-manua/" class="text-eureka hover:underline">Jose Rizal Manua</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/joshua-igo/" class="text-eureka hover:underline">Joshua Igo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mustafa-ismail/" class="text-eureka hover:underline">Mustafa Ismail</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/subagio-sastrowardoyo/" class="text-eureka hover:underline">Subagio Sastrowardoyo</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/soe-hok-gie/" class="text-eureka hover:underline">Soe Hok Gie</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/habiburrahman-el-shirazy/" class="text-eureka hover:underline">Habiburrahman El Shirazy</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/toeti-heraty/" class="text-eureka hover:underline">Toeti Heraty</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/armijn-pane/" class="text-eureka hover:underline">Armijn Pane</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/korrie-layun-rampan/" class="text-eureka hover:underline">Korrie Layun Rampan</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sitok-srengenge/" class="text-eureka hover:underline">Sitok Srengenge</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/agus-r.-sardjono/" class="text-eureka hover:underline">Agus R. Sardjono</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/umar-kayam/" class="text-eureka hover:underline">Umar Kayam</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/a.a.-navis/" class="text-eureka hover:underline">A.A. Navis</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ahmadun-yosi-herfanda/" class="text-eureka hover:underline">Ahmadun Yosi Herfanda</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ags.-arya-dipayana/" class="text-eureka hover:underline">Ags. Arya Dipayana</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/djamil-suherman/" class="text-eureka hover:underline">Djamil Suherman</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/hamid-jabbar/" class="text-eureka hover:underline">Hamid Jabbar</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/leon-agusta/" class="text-eureka hover:underline">Leon Agusta</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/agam-wispi/" class="text-eureka hover:underline">Agam Wispi</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/mohammad-yamin/" class="text-eureka hover:underline">Mohammad Yamin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/k.-kandia/" class="text-eureka hover:underline">K. Kandia</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/j.e.-tatengkeng/" class="text-eureka hover:underline">J.E. Tatengkeng</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/st.-p.-bustami/" class="text-eureka hover:underline">St. P. Bustami</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/lou-cui-ceng/" class="text-eureka hover:underline">Lou Cui Ceng</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/asrul-sani/" class="text-eureka hover:underline">Asrul Sani</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/rivai-apin/" class="text-eureka hover:underline">Rivai Apin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/ahmad-yulden-erwin/" class="text-eureka hover:underline">Ahmad Yulden Erwin</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/a.d./" class="text-eureka hover:underline">A.D.</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/a.r.h./" class="text-eureka hover:underline">A.R.H.</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/lila-s./" class="text-eureka hover:underline">Lila S.</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/linus-suryadi-a.g./" class="text-eureka hover:underline">Linus Suryadi A.G.</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/m.j./" class="text-eureka hover:underline">M.J.</a>
+    </h2>
+    
+    <h2 class="text-lg text-primary-text my-2">
+        <a href="https://www.narakata.id/series/sjarifuddin-a.-ch./" class="text-eureka hover:underline">Sjarifuddin A. Ch.</a>
+    </h2>
+    
+</div>
+
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container mx-auto">
+            <div class="max-w-screen-xl"><footer class="w-full text-center p-6 pin-b text-sm text-tertiary-text">
+  <div style="margin:10px 0px 10px 0px;"><a href='/hubungi-kami'>Hubungi Kami</a><span style='padding:0 10px 0 10px'>&#8226;</span><a href='/kebijakan-privasi'>Kebijakan Privasi</a><span style='padding:0 10px 0 10px'>&#8226;</span><a href='/mengenai-kami'>Mengenai Kami</a></div>
+    <p>&copy; 2020  Dikembangkan dan dikelola oleh SAK <div style="display:none">Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></div></p>
+</footer>
+</div>
+        </div>
+    </footer>
+</body>
+
+</html>

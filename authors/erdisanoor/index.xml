@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erdisanoor on narakata</title>
+    <link>https://www.narakata.id/authors/erdisanoor/</link>
+    <description>Recent content in Erdisanoor on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Tue, 03 Sep 2019 07:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/authors/erdisanoor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Ambyar Karya Erdisanoor</title>
+      <link>https://www.narakata.id/karya/puisi-ambyar/</link>
+      <pubDate>Tue, 03 Sep 2019 07:14:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-ambyar/</guid>
+      <description>Karya Erdisanoor
+Terbit tenggelam
+Menyapa dan hilang</description>
+    </item>
+    
+    <item>
+      <title>Puisi Amin Karya A.D.</title>
+      <link>https://www.narakata.id/karya/puisi-amin/</link>
+      <pubDate>Tue, 23 Oct 2018 12:27:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-amin/</guid>
+      <description>Karya A.D.
+Amin, Bapa saya!</description>
+    </item>
+    
+  </channel>
+</rss>

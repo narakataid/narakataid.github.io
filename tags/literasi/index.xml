@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Literasi on narakata</title>
+    <link>https://www.narakata.id/tags/literasi/</link>
+    <description>Recent content in Literasi on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Mon, 04 Feb 2019 06:56:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/tags/literasi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Dangdut Karya Literasi</title>
+      <link>https://www.narakata.id/karya/puisi-dangdut/</link>
+      <pubDate>Mon, 04 Feb 2019 06:56:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-dangdut/</guid>
+      <description>Karya Literasi
+Seorang penyair
+merasa terkutuk</description>
+    </item>
+    
+  </channel>
+</rss>

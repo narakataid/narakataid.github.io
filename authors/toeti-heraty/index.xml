@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Toeti Heraty on narakata</title>
+    <link>https://www.narakata.id/authors/toeti-heraty/</link>
+    <description>Recent content in Toeti Heraty on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Mon, 10 Dec 2018 04:18:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/authors/toeti-heraty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Siklus Karya Toeti Heraty</title>
+      <link>https://www.narakata.id/karya/puisi-siklus/</link>
+      <pubDate>Mon, 10 Dec 2018 04:18:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-siklus/</guid>
+      <description>Karya Toeti Heraty
+sejenak pun tak akan kubiarkan</description>
+    </item>
+    
+    <item>
+      <title>Puisi Selesai Karya Toeti Heraty</title>
+      <link>https://www.narakata.id/karya/puisi-selesai/</link>
+      <pubDate>Sun, 09 Dec 2018 09:03:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-selesai/</guid>
+      <description>Karya Toeti Heraty
+suatu saat toh harus ditinggalkan</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yopi Setia Umbara on narakata</title>
+    <link>https://www.narakata.id/tags/yopi-setia-umbara/</link>
+    <description>Recent content in Yopi Setia Umbara on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 26 Jan 2020 07:24:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/tags/yopi-setia-umbara/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Catatan Harian Pekerja Borongan Karya Yopi Setia Umbara</title>
+      <link>https://www.narakata.id/karya/puisi-catatan-harian-pekerja-borongan/</link>
+      <pubDate>Sun, 26 Jan 2020 07:24:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-catatan-harian-pekerja-borongan/</guid>
+      <description>Karya Yopi Setia Umbara
+tak ada hari libur.</description>
+    </item>
+    
+    <item>
+      <title>Puisi Artifisial Karya Yopi Setia Umbara</title>
+      <link>https://www.narakata.id/karya/puisi-artifisial/</link>
+      <pubDate>Fri, 01 Nov 2019 05:27:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-artifisial/</guid>
+      <description>Karya Yopi Setia Umbara
+mungkin langit hari ini</description>
+    </item>
+    
+  </channel>
+</rss>

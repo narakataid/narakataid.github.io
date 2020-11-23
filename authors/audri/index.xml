@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audri on narakata</title>
+    <link>https://www.narakata.id/authors/audri/</link>
+    <description>Recent content in Audri on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Thu, 03 Jan 2019 09:12:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/authors/audri/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Fatamorgana Karya Audri</title>
+      <link>https://www.narakata.id/karya/puisi-fatamorgana/</link>
+      <pubDate>Thu, 03 Jan 2019 09:12:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-fatamorgana/</guid>
+      <description>Karya Audri
+Bara api yang kau nyalakan membakar kedukaanku</description>
+    </item>
+    
+    <item>
+      <title>Puisi Kekhawatiran Karya Audri</title>
+      <link>https://www.narakata.id/karya/puisi-kekhawatiran/</link>
+      <pubDate>Wed, 02 Jan 2019 08:35:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-kekhawatiran/</guid>
+      <description>Karya Audri
+Rasanya tak nyaman lagi mengayuh biduk sendiri</description>
+    </item>
+    
+  </channel>
+</rss>

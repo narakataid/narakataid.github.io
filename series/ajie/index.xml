@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ajie on narakata</title>
+    <link>https://www.narakata.id/series/ajie/</link>
+    <description>Recent content in Ajie on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Mon, 14 Jan 2019 12:18:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/series/ajie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Angin Karya Ajie</title>
+      <link>https://www.narakata.id/karya/puisi-angin/</link>
+      <pubDate>Mon, 14 Jan 2019 12:18:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-angin/</guid>
+      <description>Karya Ajie
+Tak kulihat angin yang melintas</description>
+    </item>
+    
+  </channel>
+</rss>

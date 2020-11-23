@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ninil on narakata</title>
+    <link>https://www.narakata.id/series/ninil/</link>
+    <description>Recent content in Ninil on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Mon, 07 Jan 2019 09:10:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/series/ninil/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Meniti Hari Esok Karya Ninil</title>
+      <link>https://www.narakata.id/karya/puisi-meniti-hari-esok/</link>
+      <pubDate>Mon, 07 Jan 2019 09:10:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-meniti-hari-esok/</guid>
+      <description>Karya Ninil
+Dalam hari esok</description>
+    </item>
+    
+    <item>
+      <title>Puisi Bhaskara Karya Ninil</title>
+      <link>https://www.narakata.id/karya/puisi-bhaskara/</link>
+      <pubDate>Wed, 02 Jan 2019 08:37:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-bhaskara/</guid>
+      <description>Karya Ninil
+Nuansa indah tercipta dalam karya</description>
+    </item>
+    
+  </channel>
+</rss>

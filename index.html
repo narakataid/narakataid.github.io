@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang=''><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+<title>narakata</title>
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.narakata.id/css/eureka.min.css">
+
+
+
+
+<script defer src="https://www.narakata.id/js/eureka.min.js"></script>
+
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css">
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js" integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo=" crossorigin="anonymous"></script>
+
+<meta itemprop="name" content="narakata">
+<meta itemprop="description"
+    content="">
+
+
+
+
+<meta property="og:title" content="narakata" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.narakata.id/" />
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="narakata" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2020-10-08T04:04:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="" />
+
+
+
+<link rel="alternate" type="application/rss+xml" href="https://www.narakata.id/index.xml" title="narakata" />
+<body class="flex flex-col min-h-screen">
+    <header class="flex items-center fixed w-full min-h-16 z-50 bg-secondary-bg shadow-sm">
+        <div class="container mx-auto">
+            <div class="max-w-screen-xl"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    } else if (storageColorScheme == "Light") {
+        document.getElementsByTagName('html')[0].classList.remove('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap p-4">
+    <a href="https://www.narakata.id/" class="mr-6 text-primary-text text-xl font-bold">narakata</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target" class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0" id="current-url" currenturl="https://themes.gohugo.io//theme/hugo-eureka/">
+
+            <a href="/cerpen/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Cerpen</a>
+
+            <a href="/pantun/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Pantun</a>
+
+            <a href="/peribahasa/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Peribahasa</a>
+
+            <a href="/puisi/" class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Puisi</a>
+
+        </div>
+
+        <div class="flex">
+          <div class="carikata" id="carikata">
+            <form action="/search/" method="get" class="d-none d-md-block"><div class="input-group"><input name="q" type="text" class="form-control" placeholder="Kata kunci..">
+            </div></form>
+  </div>
+      </div>
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+        
+    });
+
+    let currenturl = document.getElementById('current-url').getAttribute('currenturl')
+        if (currenturl.length > 1) {
+            currenturl = currenturl.substr(0, currenturl.length - 1)
+        }
+
+        sessionStorage.setItem("mainKey", currenturl)
+
+        let elements = document.getElementsByClassName('main-a');
+        for (let i in elements) {
+            if (typeof elements[i] === "object") {
+                let elementurl = elements[i].getAttribute('href')
+                if (elementurl.length > 1 && elementurl.charAt(elementurl.length - 1) == '/') {
+                    elementurl = elementurl.substr(0, elementurl.length - 1)
+                }
+                if (elementurl == sessionStorage.getItem("mainKey")) {
+                    elements[i].classList.add('text-eureka')
+                } else {
+                    elements[i].classList.remove('text-eureka')
+                }
+            }
+        }
+</script>
+</div>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-16">
+        
+<div class="w-full bg-secondary-bg">
+    <div class="container mx-auto">
+        <div class="max-w-screen-xl">
+            <div class="grid grid-cols-9 grid-rows-5 h-screen -mt-16">
+                
+                
+
+                <div class="col-start-3 col-span-5 row-start-2 row-span-3 z-20">
+                    <div class="flex flex-col items-center justify-center min-h-full"><div class="sbox-header"><h7 class="sbox-title">"Ruang Rindu Pecinta Sastra"</h7><p class="sbox-description">narakata.id adalah media yang berisi kumpulan karya sastra, seperti cerita pendek (cerpen), pantun, peribahasa, dan puisi. Temukan karya sastra favoritmu di sini.</p></div>
+<div class="A8SBwf" jscontroller="mvYTse" jsmodel="TMlYFc" jsdata="LVplcb;_;" jsaction="lX6RWd:w3Wsmc;DkpM0b:d3sQLd;IQOavd:dFyQEf;XzZZPe:jI3wzf;Aghsf:AVsnlb;iHd9U:Q7Cnrc;f5hEHe:G0jgYd;vmxUb:j3bJnb;R2c5O:LuRugf;R3Yrj:DURTdb;qiCkJd:ANdidc;NOg9L:HLgh3;uGoIkd:epUokb;zLdLw:eaGBS;rcuQ6b:npT2md">
+<div class="RNNXgb" jsname="RNNXgb">
+<div class="SDkEP">
+<div class="iblpc" jsname="uFMOof">
+<div class="hsuHs">
+<span class="wFncld z1asCe MZy1Rb"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+</svg>
+</span>
+</div>
+</div>
+<form action="/search/" method="get" class="d-none d-md-block"><div class="input-group"><input name="q" type="text" class="form-control" placeholder="Kata kunci..">
+</div></form>
+  <div class="dRYYxd"></div>
+  </div>
+  </div>
+  </div>
+</div>
+                </div>
+                
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mx-auto ">
+    <div class="max-w-screen-xl pt-12 md:px-4 xl:px-8">
+        
+        
+<div class="mx-4 xl:mx-16">
+    <div class="flex flex-row items-center justify-between">
+        <h2 class=" font-bold text-3xl my-4">Terbaru</h2>
+    </div>
+    <div class="masonry grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/puisi-tutupnya-kedai-kopi/" class="hover:text-eureka">Puisi Tutupnya Kedai Kopi Karya Sabiq Carebesth</a>
+        </div>
+        <div class="">Karya Sabiq Carebesth
+segala berlalu--benar-benar usai</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/puisi/" class="hover:text-eureka">Puisi</a>
+        
+    </div>
+    
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-th-list mr-1"></i>
+        
+        <a href="https://www.narakata.id/series/sabiq-carebesth/" class="hover:text-eureka">Sabiq Carebesth</a>
+        
+    </div>
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/peribahasa-gayung-tua/" class="hover:text-eureka">Peribahasa Gayung Tua, Gayung Memutus</a>
+        </div>
+        <div class="">Berikut ini adalah arti dari peribahasa “Gayung tua, gayung memutus”.</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/peribahasa/" class="hover:text-eureka">Peribahasa</a>
+        
+    </div>
+    
+
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/peribahasa-gedang-gerundang/" class="hover:text-eureka">Peribahasa Gedang Gerundang di Kubangan, Gedang Ikan Raya di Lautan</a>
+        </div>
+        <div class="">Berikut ini adalah arti dari peribahasa “Gedang gerundang di kubangan, gedang ikan raya di lautan”.</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/peribahasa/" class="hover:text-eureka">Peribahasa</a>
+        
+    </div>
+    
+
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/peribahasa-gedang-kayu/" class="hover:text-eureka">Peribahasa Gedang Kayu, Gedang Dahannya</a>
+        </div>
+        <div class="">Berikut ini adalah arti dari peribahasa “Gedang kayu, gedang dahannya”.</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/peribahasa/" class="hover:text-eureka">Peribahasa</a>
+        
+    </div>
+    
+
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/peribahasa-garuda-diburu/" class="hover:text-eureka">Peribahasa Garuda Diburu Layang-layang Yang Dapat</a>
+        </div>
+        <div class="">Berikut ini adalah arti dari peribahasa “Garuda diburu layang-layang yang dapat”.</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/peribahasa/" class="hover:text-eureka">Peribahasa</a>
+        
+    </div>
+    
+
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/peribahasa-gaya-saja/" class="hover:text-eureka">Peribahasa Gaya Saja, Rasanya Wallah</a>
+        </div>
+        <div class="">Berikut ini adalah arti dari peribahasa “Gaya saja, rasanya wallah”.</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/peribahasa/" class="hover:text-eureka">Peribahasa</a>
+        
+    </div>
+    
+
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/puisi-di-lapak-buku-bajakan/" class="hover:text-eureka">Puisi Di Lapak Buku Bajakan Karya Joko Pinurbo</a>
+        </div>
+        <div class="">Karya Joko Pinurbo
+Di lapak buku bajakan</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/puisi/" class="hover:text-eureka">Puisi</a>
+        
+    </div>
+    
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-th-list mr-1"></i>
+        
+        <a href="https://www.narakata.id/series/joko-pinurbo/" class="hover:text-eureka">Joko Pinurbo</a>
+        
+    </div>
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/peribahasa-garam-jatuh-di-air/" class="hover:text-eureka">Peribahasa Garam Jatuh di Air</a>
+        </div>
+        <div class="">Berikut ini adalah arti dari peribahasa “Garam jatuh di air”.</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/peribahasa/" class="hover:text-eureka">Peribahasa</a>
+        
+    </div>
+    
+
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/peribahasa-garam-tumpah/" class="hover:text-eureka">Peribahasa Garam Tumpah Apakah Tempatnya?</a>
+        </div>
+        <div class="">Berikut ini adalah arti dari peribahasa “Garam tumpah apakah tempatnya?</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/peribahasa/" class="hover:text-eureka">Peribahasa</a>
+        
+    </div>
+    
+
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="grid-content">
+                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-100">
+    
+    
+    <div class="px-6 pt-6">
+        <div class="font-bold text-xl text-primary-text mb-2">
+            <a href="https://www.narakata.id/karya/puisi-anjay/" class="hover:text-eureka">Puisi Anjay, Alay, Lebay Karya Nursini Rais</a>
+        </div>
+        <div class="">Karya Nursini Rais
+Bagai bom atom di hiroshima</div>
+    </div>
+    <div class="px-6 pb-2">
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://www.narakata.id/categories/puisi/" class="hover:text-eureka">Puisi</a>
+        
+    </div>
+    
+
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-th-list mr-1"></i>
+        
+        <a href="https://www.narakata.id/series/nursini-rais/" class="hover:text-eureka">Nursini Rais</a>
+        
+    </div>
+    
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        enableMasonry()
+    })
+</script>
+
+    </div>
+    <style type="text/css">
+    .carikata {display: none !important;}
+    </style>
+</div>
+
+        
+    </main>
+
+    <footer>
+        <div class="container mx-auto">
+            <div class="max-w-screen-xl"><footer class="w-full text-center p-6 pin-b text-sm text-tertiary-text">
+  <div style="margin:10px 0px 10px 0px;"><a href='/hubungi-kami'>Hubungi Kami</a><span style='padding:0 10px 0 10px'>&#8226;</span><a href='/kebijakan-privasi'>Kebijakan Privasi</a><span style='padding:0 10px 0 10px'>&#8226;</span><a href='/mengenai-kami'>Mengenai Kami</a></div>
+    <p>&copy; 2020  Dikembangkan dan dikelola oleh SAK <div style="display:none">Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></div></p>
+</footer>
+</div>
+        </div>
+    </footer>
+</body>
+
+</html>

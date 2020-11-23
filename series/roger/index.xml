@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roger on narakata</title>
+    <link>https://www.narakata.id/series/roger/</link>
+    <description>Recent content in Roger on narakata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Mon, 29 Apr 2019 04:54:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.narakata.id/series/roger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puisi Bulan Maret Karya Roger</title>
+      <link>https://www.narakata.id/karya/puisi-bulan-maret/</link>
+      <pubDate>Mon, 29 Apr 2019 04:54:00 +0000</pubDate>
+      
+      <guid>https://www.narakata.id/karya/puisi-bulan-maret/</guid>
+      <description>Karya Roger
+Aku termenung di bawah rembulan</description>
+    </item>
+    
+  </channel>
+</rss>

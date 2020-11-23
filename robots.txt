@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /some-path/
+
+
+
+Sitemap: https://www.narakata.id/sitemap.xml

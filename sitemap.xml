@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -37,8 +37,44 @@
   </url>
   
   <url>
+    <loc>https://www.narakata.id/tags/muhamad-haekal-fikri/</loc>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/muhamad-haekal-fikri/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/muhamad-haekal-fikri/</loc>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/muhamad-haekal-fikri/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/muhamad-haekalfikri/</loc>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/muhamad-haekalfikri/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -50,7 +86,7 @@
   
   <url>
     <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -62,13 +98,49 @@
   
   <url>
     <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-sepasang-mata-jendela/</loc>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-sepasang-mata-jendela/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-11-10T13:26:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -117,30 +189,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/sabiq-carebesth/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-10-08T04:04:54+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   

@@ -697,6 +697,18 @@
   </url>
   
   <url>
+    <loc>https://www.narakata.id/authors/w.s.-rendra/</loc>
+    <lastmod>2020-08-02T04:29:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/w.s.-rendra/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/tags/w.s.-rendra/</loc>
     <lastmod>2020-08-02T04:29:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -717,18 +729,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/series/w.s.-rendra/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/authors/w.s.-rendra/</loc>
-    <lastmod>2020-08-02T04:29:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/w.s.-rendra/"
                 />
   </url>
   
@@ -38536,6 +38536,17 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/a.r.h./"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/beni-r.-budiman/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/beni-r.-budiman/"
                 />
   </url>
   

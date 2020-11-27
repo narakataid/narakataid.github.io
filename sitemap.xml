@@ -2,13 +2,205 @@
   
   <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/fiersa-besari/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/fiersa-besari/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/fiersa-besari/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/fiersa-besari/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/fiersa-besari/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/fiersa-besari/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/puisi/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-hidup-fiersa-besari/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-hidup-fiersa-besari/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-11-27T07:13:27+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/peribahasa/</loc>
+    <lastmod>2020-11-27T07:05:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/peribahasa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/peribahasa/</loc>
+    <lastmod>2020-11-27T07:05:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/peribahasa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/peribahasa-g/</loc>
+    <lastmod>2020-11-27T07:05:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/peribahasa-g/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-genggam-bara-api/</loc>
+    <lastmod>2020-11-27T07:05:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-genggam-bara-api/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-geneng-di-tengah-lebuh/</loc>
+    <lastmod>2020-11-27T07:04:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-geneng-di-tengah-lebuh/"
                 />
   </url>
   
@@ -49,66 +241,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/karya/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/puisi/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/karya/puisi-karnaval/</loc>
     <lastmod>2020-11-26T10:41:26+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -117,54 +249,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-karnaval/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-11-26T10:41:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/peribahasa/</loc>
-    <lastmod>2020-11-26T09:48:52+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/peribahasa/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/peribahasa/</loc>
-    <lastmod>2020-11-26T09:48:52+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/peribahasa/"
                 />
   </url>
   
@@ -909,42 +993,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-bentala-di-akhir-september/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/fiersa-besari/</loc>
-    <lastmod>2020-07-11T07:01:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/fiersa-besari/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/fiersa-besari/</loc>
-    <lastmod>2020-07-11T07:01:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/fiersa-besari/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/authors/fiersa-besari/</loc>
-    <lastmod>2020-07-11T07:01:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/fiersa-besari/"
                 />
   </url>
   

@@ -1,6 +1,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.narakata.id/categories/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/peribahasa/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/peribahasa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/peribahasa/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/peribahasa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/peribahasa-g/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/peribahasa-g/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-getah-meleleh-ke-pangkal/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-getah-meleleh-ke-pangkal/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-12-02T20:53:49+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-geruh-tak-mencium-bau/</loc>
+    <lastmod>2020-12-02T20:53:23+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-geruh-tak-mencium-bau/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-geruh-tak-berbunyi/</loc>
+    <lastmod>2020-12-02T20:53:06+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-geruh-tak-berbunyi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-geruh-menempuh-dalam-tubuh/</loc>
+    <lastmod>2020-12-02T20:52:51+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-geruh-menempuh-dalam-tubuh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-geruh-luka-ajal-mati/</loc>
+    <lastmod>2020-12-02T20:52:22+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-geruh-luka-ajal-mati/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/tags/anonim/</loc>
     <lastmod>2020-12-02T07:15:41+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -45,42 +189,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-12-02T07:15:41+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-12-02T07:15:41+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/karya/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-12-02T07:15:41+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/"
                 />
   </url>
   
@@ -141,54 +249,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-12-02T07:15:41+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/peribahasa/</loc>
-    <lastmod>2020-12-02T07:09:16+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/peribahasa/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/peribahasa/</loc>
-    <lastmod>2020-12-02T07:09:16+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/peribahasa/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/peribahasa-g/</loc>
-    <lastmod>2020-12-02T07:09:16+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/peribahasa-g/"
                 />
   </url>
   

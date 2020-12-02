@@ -6,24 +6,24 @@
     <description>Recent content in Tags on narakata</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 11:14:29 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 02 Dec 2020 07:15:41 +0700</lastBuildDate>
     
 	<atom:link href="https://www.narakata.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Listiana</title>
-      <link>https://www.narakata.id/tags/listiana/</link>
-      <pubDate>Tue, 01 Dec 2020 11:14:29 +0700</pubDate>
+      <title>Anonim</title>
+      <link>https://www.narakata.id/tags/anonim/</link>
+      <pubDate>Wed, 02 Dec 2020 07:15:41 +0700</pubDate>
       
-      <guid>https://www.narakata.id/tags/listiana/</guid>
+      <guid>https://www.narakata.id/tags/anonim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Puisi</title>
       <link>https://www.narakata.id/tags/puisi/</link>
-      <pubDate>Tue, 01 Dec 2020 11:14:29 +0700</pubDate>
+      <pubDate>Wed, 02 Dec 2020 07:15:41 +0700</pubDate>
       
       <guid>https://www.narakata.id/tags/puisi/</guid>
       <description></description>
@@ -32,9 +32,36 @@
     <item>
       <title>Puisi Galau</title>
       <link>https://www.narakata.id/tags/puisi-galau/</link>
-      <pubDate>Tue, 01 Dec 2020 11:14:29 +0700</pubDate>
+      <pubDate>Wed, 02 Dec 2020 07:15:41 +0700</pubDate>
       
       <guid>https://www.narakata.id/tags/puisi-galau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peribahasa</title>
+      <link>https://www.narakata.id/tags/peribahasa/</link>
+      <pubDate>Wed, 02 Dec 2020 07:09:16 +0700</pubDate>
+      
+      <guid>https://www.narakata.id/tags/peribahasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peribahasa G</title>
+      <link>https://www.narakata.id/tags/peribahasa-g/</link>
+      <pubDate>Wed, 02 Dec 2020 07:09:16 +0700</pubDate>
+      
+      <guid>https://www.narakata.id/tags/peribahasa-g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Listiana</title>
+      <link>https://www.narakata.id/tags/listiana/</link>
+      <pubDate>Tue, 01 Dec 2020 11:14:29 +0700</pubDate>
+      
+      <guid>https://www.narakata.id/tags/listiana/</guid>
       <description></description>
     </item>
     
@@ -84,29 +111,11 @@
     </item>
     
     <item>
-      <title>Peribahasa</title>
-      <link>https://www.narakata.id/tags/peribahasa/</link>
-      <pubDate>Fri, 27 Nov 2020 07:05:54 +0700</pubDate>
-      
-      <guid>https://www.narakata.id/tags/peribahasa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Beni R. Budiman</title>
       <link>https://www.narakata.id/tags/beni-r.-budiman/</link>
       <pubDate>Thu, 26 Nov 2020 10:41:26 +0700</pubDate>
       
       <guid>https://www.narakata.id/tags/beni-r.-budiman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peribahasa G</title>
-      <link>https://www.narakata.id/tags/peribahasa-g/</link>
-      <pubDate>Thu, 26 Nov 2020 09:48:52 +0700</pubDate>
-      
-      <guid>https://www.narakata.id/tags/peribahasa-g/</guid>
       <description></description>
     </item>
     
@@ -368,15 +377,6 @@
       <pubDate>Thu, 12 Mar 2020 05:42:09 +0700</pubDate>
       
       <guid>https://www.narakata.id/tags/saut-situmorang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anonim</title>
-      <link>https://www.narakata.id/tags/anonim/</link>
-      <pubDate>Tue, 10 Mar 2020 03:54:16 +0700</pubDate>
-      
-      <guid>https://www.narakata.id/tags/anonim/</guid>
       <description></description>
     </item>
     

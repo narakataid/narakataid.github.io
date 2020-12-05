@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
   
   <url>
     <loc>https://www.narakata.id/tags/khoirul-triann/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -50,7 +50,7 @@
   
   <url>
     <loc>https://www.narakata.id/series/khoirul-triann/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -62,7 +62,7 @@
   
   <url>
     <loc>https://www.narakata.id/authors/khoirul-triann/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -74,7 +74,7 @@
   
   <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -86,7 +86,7 @@
   
   <url>
     <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -98,13 +98,61 @@
   
   <url>
     <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi-galau/</loc>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi-galau/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-sulung/</loc>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-sulung/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -117,42 +165,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-bungsu/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi-galau/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi-galau/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   

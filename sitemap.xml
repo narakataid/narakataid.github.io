@@ -1,6 +1,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.narakata.id/authors/</loc>
+    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/categories/</loc>
     <lastmod>2020-12-05T12:14:36+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -45,6 +57,18 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/series/khoirul-triann/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/khoirul-triann/</loc>
+    <lastmod>2020-12-05T12:14:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/khoirul-triann/"
                 />
   </url>
   
@@ -129,18 +153,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2020-12-04T06:34:15+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/"
                 />
   </url>
   

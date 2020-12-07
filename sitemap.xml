@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-12-06T20:15:10+07:00</lastmod>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-12-06T20:15:10+07:00</lastmod>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-12-06T20:15:10+07:00</lastmod>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
   
   <url>
     <loc>https://www.narakata.id/tags/peribahasa/</loc>
-    <lastmod>2020-12-06T20:15:10+07:00</lastmod>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -50,7 +50,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/peribahasa/</loc>
-    <lastmod>2020-12-06T20:15:10+07:00</lastmod>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -62,13 +62,73 @@
   
   <url>
     <loc>https://www.narakata.id/tags/peribahasa-h/</loc>
-    <lastmod>2020-12-06T20:15:10+07:00</lastmod>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/tags/peribahasa-h/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-umpan-kerong-kerong-tak-dapat/</loc>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-umpan-kerong-kerong-tak-dapat/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-tenggang-dan-kelakar/</loc>
+    <lastmod>2020-12-07T08:10:05+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-tenggang-dan-kelakar/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-sampan-kerong-kerong-tak-dapat/</loc>
+    <lastmod>2020-12-07T08:09:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-sampan-kerong-kerong-tak-dapat/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-minyak-sepasu/</loc>
+    <lastmod>2020-12-07T08:09:23+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-minyak-sepasu/"
                 />
   </url>
   
@@ -81,18 +141,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/peribahasa-habis-miang-karena-bergeser/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-12-06T20:15:10+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -5629,6 +5677,18 @@
   </url>
   
   <url>
+    <loc>https://www.narakata.id/authors/agus-noor/</loc>
+    <lastmod>2019-12-28T20:21:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/agus-noor/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/tags/agus-noor/</loc>
     <lastmod>2019-12-28T20:21:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -5649,18 +5709,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/series/agus-noor/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/authors/agus-noor/</loc>
-    <lastmod>2019-12-28T20:21:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/agus-noor/"
                 />
   </url>
   

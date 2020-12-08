@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
   
   <url>
     <loc>https://www.narakata.id/tags/peribahasa/</loc>
-    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -50,7 +50,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/peribahasa/</loc>
-    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -62,13 +62,169 @@
   
   <url>
     <loc>https://www.narakata.id/tags/peribahasa-h/</loc>
-    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/tags/peribahasa-h/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-kuman-disembelih-hendak-memberi-makan-gajah/</loc>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-kuman-disembelih-hendak-memberi-makan-gajah/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-12-09T03:56:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-kapak-berganti-beliung/</loc>
+    <lastmod>2020-12-09T03:56:24+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-kapak-berganti-beliung/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-hulubalang-bersiak/</loc>
+    <lastmod>2020-12-09T03:56:03+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-hulubalang-bersiak/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-habis-geli-oleh-geletek/</loc>
+    <lastmod>2020-12-09T03:55:44+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-habis-geli-oleh-geletek/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/dian-filyana/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/dian-filyana/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/dian-filyana/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/dian-filyana/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/dian-filyana/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/dian-filyana/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/puisi/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-untuk-pilkada/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-untuk-pilkada/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2020-12-09T03:42:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
                 />
   </url>
   
@@ -81,18 +237,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/peribahasa-habis-umpan-kerong-kerong-tak-dapat/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-12-07T08:10:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -229,42 +373,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2020-12-06T19:57:12+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2020-12-06T19:57:12+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2020-12-06T19:57:12+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/puisi/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/karya/puisi-sang-koruptor/</loc>
     <lastmod>2020-12-06T19:57:12+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -273,18 +381,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-sang-koruptor/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2020-12-06T19:57:12+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
                 />
   </url>
   

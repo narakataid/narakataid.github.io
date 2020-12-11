@@ -1,8 +1,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.narakata.id/tags/anisaa/</loc>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/anisaa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/anisaa/</loc>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/anisaa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/anisaa/</loc>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/anisaa/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +50,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +62,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -38,7 +74,7 @@
   
   <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -50,7 +86,7 @@
   
   <url>
     <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -62,13 +98,121 @@
   
   <url>
     <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi-lucu/</loc>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi-lucu/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-tai/</loc>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-tai/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-12-11T07:40:40+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/elda-rina/</loc>
+    <lastmod>2020-12-10T10:49:24+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/elda-rina/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/elda-rina/</loc>
+    <lastmod>2020-12-10T10:49:24+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/elda-rina/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/elda-rina/</loc>
+    <lastmod>2020-12-10T10:49:24+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/elda-rina/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi-galau/</loc>
+    <lastmod>2020-12-10T10:49:24+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi-galau/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-karya-elda-rina/</loc>
+    <lastmod>2020-12-10T10:49:24+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-karya-elda-rina/"
                 />
   </url>
   
@@ -117,30 +261,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/sapardi-djoko-damono/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -501,18 +621,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/khoirul-triann/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi-galau/</loc>
-    <lastmod>2020-12-05T14:01:32+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi-galau/"
                 />
   </url>
   
@@ -20589,42 +20697,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-hujan-bulan-mei-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/elda-rina/</loc>
-    <lastmod>2019-04-29T05:16:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/elda-rina/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/elda-rina/</loc>
-    <lastmod>2019-04-29T05:16:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/elda-rina/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/authors/elda-rina/</loc>
-    <lastmod>2019-04-29T05:16:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/elda-rina/"
                 />
   </url>
   

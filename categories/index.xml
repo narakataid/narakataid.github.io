@@ -6,10 +6,19 @@
     <description>Recent content in Categories on narakata</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Sun, 13 Dec 2020 09:17:21 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 13 Dec 2020 18:46:14 +0700</lastBuildDate>
     
 	<atom:link href="https://www.narakata.id/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Peribahasa</title>
+      <link>https://www.narakata.id/categories/peribahasa/</link>
+      <pubDate>Sun, 13 Dec 2020 18:46:14 +0700</pubDate>
+      
+      <guid>https://www.narakata.id/categories/peribahasa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Puisi</title>
@@ -17,15 +26,6 @@
       <pubDate>Sun, 13 Dec 2020 09:17:21 +0700</pubDate>
       
       <guid>https://www.narakata.id/categories/puisi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peribahasa</title>
-      <link>https://www.narakata.id/categories/peribahasa/</link>
-      <pubDate>Thu, 10 Dec 2020 09:49:27 +0700</pubDate>
-      
-      <guid>https://www.narakata.id/categories/peribahasa/</guid>
       <description></description>
     </item>
     

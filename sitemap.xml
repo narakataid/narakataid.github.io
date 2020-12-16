@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,13 +14,217 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/inayah-wahid/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/inayah-wahid/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/inayah-wahid/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/inayah-wahid/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/inayah-wahid/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/inayah-wahid/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/puisi/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi-ayah/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi-ayah/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-karena-ayahku/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-karena-ayahku/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-12-16T09:29:52+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/andriani/</loc>
+    <lastmod>2020-12-15T19:19:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/andriani/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/andriani/</loc>
+    <lastmod>2020-12-15T19:19:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/andriani/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/andriani/</loc>
+    <lastmod>2020-12-15T19:19:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/andriani/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/cerpen/</loc>
+    <lastmod>2020-12-15T19:19:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/cerpen/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/cerpen/</loc>
+    <lastmod>2020-12-15T19:19:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/cerpen/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/cerpen-suatu-sisi-dalam-hidupmu/</loc>
+    <lastmod>2020-12-15T19:19:50+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/cerpen-suatu-sisi-dalam-hidupmu/"
                 />
   </url>
   
@@ -61,54 +265,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/karya/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/puisi/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/karya/puisi-dingin-tak-tercatat/</loc>
     <lastmod>2020-12-14T09:16:06+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -117,30 +273,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-dingin-tak-tercatat/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-12-14T09:16:06+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -2545,30 +2677,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/tags/cerpen/</loc>
-    <lastmod>2020-05-01T18:49:25+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/cerpen/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/cerpen/</loc>
-    <lastmod>2020-05-01T18:49:25+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/cerpen/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/karya/cerpen-hening-di-ujung-senja/</loc>
     <lastmod>2020-05-01T18:49:25+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3777,18 +3885,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/clara/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi-ayah/</loc>
-    <lastmod>2020-03-10T03:54:16+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi-ayah/"
                 />
   </url>
   

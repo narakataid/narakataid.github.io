@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2020-12-24T07:07:58+07:00</lastmod>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2020-12-24T07:07:58+07:00</lastmod>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2020-12-24T07:07:58+07:00</lastmod>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
   
   <url>
     <loc>https://www.narakata.id/tags/peribahasa/</loc>
-    <lastmod>2020-12-24T07:07:58+07:00</lastmod>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -50,7 +50,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/peribahasa/</loc>
-    <lastmod>2020-12-24T07:07:58+07:00</lastmod>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -62,13 +62,85 @@
   
   <url>
     <loc>https://www.narakata.id/tags/peribahasa-h/</loc>
-    <lastmod>2020-12-24T07:07:58+07:00</lastmod>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/tags/peribahasa-h/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-harimau-menyorokkan-kuku/</loc>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-harimau-menyorokkan-kuku/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2020-12-29T10:59:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-harimau-mengaum-takkan-menangkap/</loc>
+    <lastmod>2020-12-29T10:59:34+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-harimau-mengaum-takkan-menangkap/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-harimau-memperlihatkan-kukunya/</loc>
+    <lastmod>2020-12-29T10:59:13+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-harimau-memperlihatkan-kukunya/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-harimau-hendak-menghilangkan-jejaknya/</loc>
+    <lastmod>2020-12-29T10:58:55+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-harimau-hendak-menghilangkan-jejaknya/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-harimau-ditakuti-sebab-giginya/</loc>
+    <lastmod>2020-12-29T10:58:25+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-harimau-ditakuti-sebab-giginya/"
                 />
   </url>
   
@@ -81,18 +153,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/peribahasa-harimau-bertempek-takkan-makan-orang/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2020-12-24T07:07:58+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -3853,38 +3913,38 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/tags/abdul-hadi-w.m./</loc>
+    <loc>https://www.narakata.id/tags/abdul-hadi-w.m/</loc>
     <lastmod>2020-03-15T04:58:17+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
-                href="https://www.narakata.id/tags/abdul-hadi-w.m./"
+                href="https://www.narakata.id/tags/abdul-hadi-w.m/"
                 />
   </url>
   
   <url>
-    <loc>https://www.narakata.id/series/abdul-hadi-w.m./</loc>
+    <loc>https://www.narakata.id/series/abdul-hadi-w.m/</loc>
     <lastmod>2020-03-15T04:58:17+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
-                href="https://www.narakata.id/series/abdul-hadi-w.m./"
+                href="https://www.narakata.id/series/abdul-hadi-w.m/"
                 />
   </url>
   
   <url>
-    <loc>https://www.narakata.id/authors/abdul-hadi-w.m./</loc>
+    <loc>https://www.narakata.id/authors/abdul-hadi-w.m/</loc>
     <lastmod>2020-03-15T04:58:17+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
-                href="https://www.narakata.id/authors/abdul-hadi-w.m./"
+                href="https://www.narakata.id/authors/abdul-hadi-w.m/"
                 />
   </url>
   
@@ -35409,6 +35469,42 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-doa-bayang-bayang/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/abdul-hadi-wm/</loc>
+    <lastmod>2018-11-03T11:03:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/abdul-hadi-wm/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/abdul-hadi-wm/</loc>
+    <lastmod>2018-11-03T11:03:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/abdul-hadi-wm/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/abdul-hadi-wm/</loc>
+    <lastmod>2018-11-03T11:03:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/abdul-hadi-wm/"
                 />
   </url>
   

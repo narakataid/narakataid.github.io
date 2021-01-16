@@ -241,18 +241,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/authors/agus-noor/</loc>
-    <lastmod>2021-01-12T05:40:30+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/agus-noor/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/tags/agus-noor/</loc>
     <lastmod>2021-01-12T05:40:30+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -273,6 +261,18 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/series/agus-noor/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/agus-noor/</loc>
+    <lastmod>2021-01-12T05:40:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/agus-noor/"
                 />
   </url>
   

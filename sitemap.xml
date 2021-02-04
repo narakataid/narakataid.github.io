@@ -1,8 +1,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.narakata.id/categories/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/peribahasa/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/peribahasa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/peribahasa/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/peribahasa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/peribahasa-h/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/peribahasa-h/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-hendak-air-pancuran-terbit/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-hendak-air-pancuran-terbit/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2021-02-04T12:06:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-hempas-tulang-tak-berbalas-jasa/</loc>
+    <lastmod>2021-02-04T12:06:17+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-hempas-tulang-tak-berbalas-jasa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-hempas-tulang-berisi-perut/</loc>
+    <lastmod>2021-02-04T12:06:00+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-hempas-tulang-berisi-perut/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-hemat-pangkal-kaya-sia-sia-hutang-tambah/</loc>
+    <lastmod>2021-02-04T12:05:38+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-hemat-pangkal-kaya-sia-sia-hutang-tambah/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/peribahasa-hawa-pantang-kerendahan/</loc>
+    <lastmod>2021-02-04T12:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/peribahasa-hawa-pantang-kerendahan/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -13,14 +157,98 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
+    <loc>https://www.narakata.id/tags/puisi/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
-                href="https://www.narakata.id/categories/"
+                href="https://www.narakata.id/tags/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/puisi/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi-cinta/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi-cinta/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-kidung-kekasih/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-kidung-kekasih/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/usman-arrumy/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/usman-arrumy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/usman-arrumy/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/usman-arrumy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/usman-arrumy/</loc>
+    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/usman-arrumy/"
                 />
   </url>
   
@@ -61,54 +289,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/karya/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/puisi/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/karya/puisi-kesetiaan-lelaki-laut/</loc>
     <lastmod>2021-01-24T09:30:37+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -117,30 +297,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-kesetiaan-lelaki-laut/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2021-01-24T09:30:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -189,42 +345,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-lilin-yang-menyala/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/peribahasa/</loc>
-    <lastmod>2021-01-24T08:51:39+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/peribahasa/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/peribahasa/</loc>
-    <lastmod>2021-01-24T08:51:39+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/peribahasa/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/peribahasa-h/</loc>
-    <lastmod>2021-01-24T08:51:39+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/peribahasa-h/"
                 />
   </url>
   
@@ -2289,18 +2409,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-tentang-penantian/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi-cinta/</loc>
-    <lastmod>2020-11-30T09:20:09+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi-cinta/"
                 />
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on narakata</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2021</copyright>
-    <lastBuildDate>Thu, 04 Feb 2021 20:38:23 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2021 12:00:59 +0700</lastBuildDate>
     
 	<atom:link href="https://www.narakata.id/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Puisi</title>
+      <link>https://www.narakata.id/categories/puisi/</link>
+      <pubDate>Mon, 08 Feb 2021 12:00:59 +0700</pubDate>
+      
+      <guid>https://www.narakata.id/categories/puisi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Peribahasa</title>
@@ -17,15 +26,6 @@
       <pubDate>Thu, 04 Feb 2021 20:38:23 +0700</pubDate>
       
       <guid>https://www.narakata.id/categories/peribahasa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Puisi</title>
-      <link>https://www.narakata.id/categories/puisi/</link>
-      <pubDate>Thu, 04 Feb 2021 11:52:30 +0700</pubDate>
-      
-      <guid>https://www.narakata.id/categories/puisi/</guid>
       <description></description>
     </item>
     

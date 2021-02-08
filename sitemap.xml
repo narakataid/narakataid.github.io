@@ -1,8 +1,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.narakata.id/authors/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2021-02-04T20:38:23+07:00</lastmod>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2021-02-04T20:38:23+07:00</lastmod>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,13 +38,133 @@
   
   <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2021-02-04T20:38:23+07:00</lastmod>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/pramoedya-ananta-toer/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/pramoedya-ananta-toer/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/pramoedya-ananta-toer/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/pramoedya-ananta-toer/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/pramoedya-ananta-toer/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/pramoedya-ananta-toer/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/puisi/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-bayang-bayang/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-bayang-bayang/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-setitik-embun-di-gurun/</loc>
+    <lastmod>2021-02-08T11:55:18+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-setitik-embun-di-gurun/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-veni-vidi-vici/</loc>
+    <lastmod>2021-02-08T11:47:25+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-veni-vidi-vici/"
                 />
   </url>
   
@@ -81,18 +213,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/peribahasa-hendak-bersunting-bunga-mala/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2021-02-04T20:38:23+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -181,42 +301,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/puisi/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/tags/puisi-cinta/</loc>
     <lastmod>2021-02-04T11:52:30+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -237,18 +321,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-kidung-kekasih/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
                 />
   </url>
   
@@ -32097,42 +32169,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-istirahatlah-kata-kata/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/pramoedya-ananta-toer/</loc>
-    <lastmod>2019-08-22T11:01:11+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/pramoedya-ananta-toer/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/pramoedya-ananta-toer/</loc>
-    <lastmod>2019-08-22T11:01:11+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/pramoedya-ananta-toer/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/authors/pramoedya-ananta-toer/</loc>
-    <lastmod>2019-08-22T11:01:11+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/pramoedya-ananta-toer/"
                 />
   </url>
   

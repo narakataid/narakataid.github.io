@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -38,13 +38,109 @@
   
   <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/categories/puisi/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-ketika-jari-jari-terbuka/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-ketika-jari-jari-terbuka/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/sapardi-djoko-damono/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/sapardi-djoko-damono/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/sapardi-djoko-damono/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/sapardi-djoko-damono/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/sapardi-djoko-damono/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/sapardi-djoko-damono/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -85,30 +181,6 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/categories/puisi/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.narakata.id/karya/puisi-bayang-bayang/</loc>
     <lastmod>2021-02-08T12:00:59+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -117,30 +189,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-bayang-bayang/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2021-02-08T12:00:59+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -1653,42 +1701,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/puisi-hujan-turun-sepanjang-jalan/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/sapardi-djoko-damono/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/sapardi-djoko-damono/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/sapardi-djoko-damono/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/sapardi-djoko-damono/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/authors/sapardi-djoko-damono/</loc>
-    <lastmod>2020-12-10T10:01:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/authors/sapardi-djoko-damono/"
                 />
   </url>
   

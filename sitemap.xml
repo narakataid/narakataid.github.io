@@ -2,7 +2,7 @@
   
   <url>
     <loc>https://www.narakata.id/authors/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://www.narakata.id/categories/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -26,7 +26,7 @@
   
   <url>
     <loc>https://www.narakata.id/karya/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -37,8 +37,44 @@
   </url>
   
   <url>
+    <loc>https://www.narakata.id/tags/lan-fang/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/lan-fang/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/lan-fang/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/lan-fang/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/lan-fang/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/lan-fang/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -49,8 +85,104 @@
   </url>
   
   <url>
+    <loc>https://www.narakata.id/categories/puisi/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/categories/puisi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/karya/puisi-bagai/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/karya/puisi-bagai/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi-cinta/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi-cinta/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/puisi-galau/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/puisi-galau/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/tags/</loc>
+    <lastmod>2021-02-21T10:50:42+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/series/hafney-maulana/</loc>
+    <lastmod>2021-02-21T10:46:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/series/hafney-maulana/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.narakata.id/authors/hafney-maulana/</loc>
+    <lastmod>2021-02-21T10:46:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://www.narakata.id/authors/hafney-maulana/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.narakata.id/tags/puisi/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <lastmod>2021-02-21T10:46:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
@@ -61,14 +193,14 @@
   </url>
   
   <url>
-    <loc>https://www.narakata.id/categories/puisi/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
+    <loc>https://www.narakata.id/karya/puisi-ingin-sendiri-dalam-hujan/</loc>
+    <lastmod>2021-02-21T10:46:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="x-default"
-                href="https://www.narakata.id/categories/puisi/"
+                href="https://www.narakata.id/karya/puisi-ingin-sendiri-dalam-hujan/"
                 />
   </url>
   
@@ -117,30 +249,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/sapardi-djoko-damono/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/series/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/</loc>
-    <lastmod>2021-02-12T16:26:21+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/"
                 />
   </url>
   
@@ -345,18 +453,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/karya/peribahasa-hawa-pantang-kerendahan/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi-cinta/</loc>
-    <lastmod>2021-02-04T11:52:30+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi-cinta/"
                 />
   </url>
   
@@ -1665,18 +1761,6 @@
                 rel="alternate"
                 hreflang="x-default"
                 href="https://www.narakata.id/authors/elda-rina/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.narakata.id/tags/puisi-galau/</loc>
-    <lastmod>2020-12-10T10:49:24+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://www.narakata.id/tags/puisi-galau/"
                 />
   </url>
   
